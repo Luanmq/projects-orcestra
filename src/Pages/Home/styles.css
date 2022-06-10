@@ -1,0 +1,94 @@
+*{ 
+  /* Todos os elementos */
+  margin: 0px 0px 0px;
+}
+
+body{
+	background-color: #000000;	
+	font-family: 'New Tegomin', serif;
+	color: white; 
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-top: 50px;
+	margin-bottom: 100px;
+}
+
+h1{
+	font-family: flower-power,sans-serif;
+	font-size: 60px;
+	font-weight: bold;	
+	color: deeppink;
+}
+
+h2{
+	font-size: 32px;
+	font-family: flower-power,sans-serif;
+	font-weight: bold;	
+	color: deeppink;
+}
+
+hr{
+	margin-top: 20px;
+	background-color: deeppink;
+	border-color: deeppink;
+}
+
+p{
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+ul{
+	list-style: none;
+	font-size: 20px;
+}
+
+li{
+	list-style: none;
+	font-size: 20px;
+	margin-bottom: 15px;
+}
+
+a{
+	font-size: 20px;
+}
+
+.foto{
+	width: 200px;
+	height: 200px;
+}
+
+.container-body{
+	display: flex;
+	flex-direction: column;
+	gap: 50px;
+}
+
+.container-header{
+	display: flex;
+	gap: 30px;
+	align-items:flex-end;
+}
+
+a:link {
+	color:white;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+a:visited {
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a:hover{
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+}
+a:active {
+	color: deeppink;
+	font-weight: bold;
+	text-decoration: none;
+}
